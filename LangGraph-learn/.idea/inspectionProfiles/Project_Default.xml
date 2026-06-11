@@ -1,0 +1,100 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="alembic" />
+          <option value="aniso8601" />
+          <option value="annotated-types" />
+          <option value="anyio" />
+          <option value="APScheduler" />
+          <option value="attrs" />
+          <option value="Babel" />
+          <option value="bcrypt" />
+          <option value="blinker" />
+          <option value="certifi" />
+          <option value="charset-normalizer" />
+          <option value="click" />
+          <option value="cn2an" />
+          <option value="colorama" />
+          <option value="cryptography" />
+          <option value="distro" />
+          <option value="dnspython" />
+          <option value="docxcompose" />
+          <option value="docxtpl" />
+          <option value="et_xmlfile" />
+          <option value="filetype" />
+          <option value="Flask" />
+          <option value="Flask-Cors" />
+          <option value="Flask-JWT-Extended" />
+          <option value="Flask-Migrate" />
+          <option value="Flask-RESTful" />
+          <option value="Flask-SQLAlchemy" />
+          <option value="Flask-WTF" />
+          <option value="greenlet" />
+          <option value="h11" />
+          <option value="httpcore" />
+          <option value="httpx" />
+          <option value="idna" />
+          <option value="importlib_metadata" />
+          <option value="inflection" />
+          <option value="itsdangerous" />
+          <option value="Jinja2" />
+          <option value="jiter" />
+          <option value="lxml" />
+          <option value="Mako" />
+          <option value="MarkupSafe" />
+          <option value="numpy" />
+          <option value="openai" />
+          <option value="openpyxl" />
+          <option value="outcome" />
+          <option value="packaging" />
+          <option value="pandas" />
+          <option value="passlib" />
+          <option value="proces" />
+          <option value="pycparser" />
+          <option value="pycryptodome" />
+          <option value="pydantic" />
+          <option value="pydantic_core" />
+          <option value="PyJWT" />
+          <option value="pymongo" />
+          <option value="PyMySQL" />
+          <option value="pypng" />
+          <option value="PySocks" />
+          <option value="python-dateutil" />
+          <option value="python-docx" />
+          <option value="python-dotenv" />
+          <option value="pytz" />
+          <option value="qrcode" />
+          <option value="requests" />
+          <option value="schedule" />
+          <option value="selenium" />
+          <option value="six" />
+          <option value="sniffio" />
+          <option value="sortedcontainers" />
+          <option value="SQLAlchemy" />
+          <option value="tornado" />
+          <option value="tqdm" />
+          <option value="trio" />
+          <option value="trio-websocket" />
+          <option value="typing_extensions" />
+          <option value="tzdata" />
+          <option value="tzlocal" />
+          <option value="Unidecode" />
+          <option value="urllib3" />
+          <option value="webdriver-manager" />
+          <option value="websocket-client" />
+          <option value="Werkzeug" />
+          <option value="wsproto" />
+          <option value="WTForms" />
+          <option value="zipp" />
+          <option value="cffi" />
+          <option value="comtypes" />
+          <option value="pywin32" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
