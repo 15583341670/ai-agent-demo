@@ -1,0 +1,4 @@
+.jupyter-config/
+.jupyter-data/
+.jupyter-runtime/
+.ipython/

@@ -88,11 +88,12 @@ if __name__ == "__main__":
     print("看看能拿到环境环比昂",os.getenv("OPENAI_BASE_URL"))
     # 初始化智能体
     model = init_chat_model(
-        model="openai:qwen3.7-plus",
+        model="openai:qwen3.5-plus",
         api_key=os.getenv("OPENAI_API_KEY"),
         base_url=os.getenv("OPENAI_BASE_URL"),
         temperature=0,
     )
+    
     # 工具绑定需要用到这个api
     # 使用 bind_tools 绑定工具
     model_with_tools = model.bind_tools(tools)
@@ -105,15 +106,7 @@ if __name__ == "__main__":
     res = model_with_tools.invoke([
         user_message
     ])
-
-    print(
-        json.dumps(
-            res.model_dump(),
-            ensure_ascii=False,
-            indent=2,
-            default=str
-        )
-    )
+    res.pretty_print()
     print('回答的结果',res)
-    print("工具调用：", res.tool_calls)
+    # print("工具调用：", res.tool_calls)
 

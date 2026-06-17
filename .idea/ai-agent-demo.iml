@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/LangGraph-learn/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/Langchain-learn/.venv" />
     </content>
     <orderEntry type="jdk" jdkName="uv (ai-agent-demo)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
