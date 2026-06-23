@@ -88,7 +88,7 @@ if __name__ == "__main__":
     print("看看能拿到环境环比昂",os.getenv("OPENAI_BASE_URL"))
     # 初始化智能体
     model = init_chat_model(
-        model="openai:qwen3.5-plus",
+        model="openai:qwen3.6-plus-2026-04-02",
         api_key=os.getenv("OPENAI_API_KEY"),
         base_url=os.getenv("OPENAI_BASE_URL"),
         temperature=0,
@@ -103,10 +103,10 @@ if __name__ == "__main__":
         content="调用工具说22加上1等于多少"
     )
     # 拿到模型的回答(因为是模型调用工具所以这里只返回模型需要调用的工具)
-    res = model_with_tools.invoke([
+    res = model.invoke([
         user_message
     ])
     res.pretty_print()
-    print('回答的结果',res)
+    print('回答的结果',res) 
     # print("工具调用：", res.tool_calls)
 
